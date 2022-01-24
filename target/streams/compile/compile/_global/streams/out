@@ -1,0 +1,11 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Techhubs/seven-day-streak/src/main/scala/HttpServerApp.scala:57:33: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Failure(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    serverBinding.transformWith {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Techhubs/seven-day-streak/src/main/scala/routes/CustomerRoute.scala:24:20: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m              case response =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Techhubs/seven-day-streak/src/main/scala/routes/CustomerRoute.scala:27:25: unreachable code due to variable pattern 'response' on line 24[0m
+[0m[[0m[33mwarn[0m] [0m[0m                complete(error)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
